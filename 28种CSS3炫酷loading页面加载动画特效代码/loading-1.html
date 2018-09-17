@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body,div{
+				margin: 0;
+				padding: 0;
+				
+			}
+			body{
+				background:#ed5565;
+			}
+			.box{
+				width:100px;
+				height:100px;
+				/*border:1px solid red;*/
+				margin:150px auto;
+				position: relative;
+				
+			}
+			@keyframes move{
+				0%{transform: scale(1);}
+				100%{transform: scale(0.5);}
+			}
+			
+			.box1{
+				width:50px;
+				height:50px;
+				/*border:1px solid blue;*/
+				position: absolute;
+				top:25px;
+				left:25px;
+				
+			}
+			.box2{
+				width:15px;
+				height:15px;
+				background:#fff ;
+				border-radius:50%;
+				position: absolute;
+				animation:1s ;
+				animation:move 1s linear infinite;
+			}
+			.box1:nth-of-type(1) .box2:nth-of-type(1){
+				animation-delay:-0.1s;
+			}
+			.box1:nth-of-type(2) .box2:nth-of-type(1){
+				animation-delay:-0.2s;
+			}
+			.box1:nth-of-type(1) .box2:nth-of-type(2){
+				animation-delay:-0.3s;
+			}
+			.box1:nth-of-type(2) .box2:nth-of-type(2){
+				animation-delay:-0.4s;
+			}
+			.box1:nth-of-type(1) .box2:nth-of-type(3){
+				animation-delay:-0.5s;
+			}
+			.box1:nth-of-type(2) .box2:nth-of-type(3){
+				animation-delay:-0.6s;
+			}
+			.box1:nth-of-type(1) .box2:nth-of-type(4){
+				animation-delay:-0.7s;
+			}
+			.box1:nth-of-type(2) .box2:nth-of-type(4){
+				animation-delay:-0.8s;
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			.box1:nth-of-type(2){
+				transform: rotate(45deg);
+				z-index: ;
+			}
+			.box1 .box2:nth-of-type(1){
+				left:0;
+				top:0;
+			}
+			.box1 .box2:nth-of-type(2){
+				right:0;
+				top:0;
+			}
+			.box1 .box2:nth-of-type(3){
+				right:0;
+				bottom:0;
+			}
+			.box1 .box2:nth-of-type(4){
+				left:0;
+				bottom:0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="box1">
+				<div class="box2"></div>
+				<div class="box2"></div>
+				<div class="box2"></div>
+				<div class="box2"></div>
+			</div>
+			<div class="box1">
+				<div class="box2"></div>
+				<div class="box2"></div>
+				<div class="box2"></div>
+				<div class="box2"></div>
+			</div>
+		</div>
+	</body>
+</html>

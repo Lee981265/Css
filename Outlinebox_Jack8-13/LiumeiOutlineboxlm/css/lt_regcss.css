@@ -1,0 +1,30 @@
+ul{list-style: none;}
+body,html,ul,div,p{font-family: "微软雅黑";margin:0;padding:0;}
+button{cursor: pointer;outline:none;box-shadow: 0 10px 10px 0 #FA7210 inset,0 -10px 10px 0 #FA7210 inset;}
+.header{height:150px;background: #000;}
+.re_main{width:980px;margin:0 auto;}
+.re_main h4{border-bottom: 2px solid #000;font-size: 18px;line-height:42px;}
+.re_main label{display: block;}
+.re_main input{display:block;width:343px;box-sizing: border-box;}
+.lt_sign{width:48%;float:left;border-right: 1px dotted #000;font-size:12px;font-weight: 900;height:388px;padding-left:30px;box-sizing: border-box;}
+.lt_sign input{height:34px;line-height:34px;}
+.lt_sign label{margin-bottom:20px;}
+.lt_sign label span{line-height:25px;}
+.lt_sign .sign_in{height:30px;width:64px;background:#F8901B;border: 0 none;font-weight: 900;font-size: 12px;line-height:30px;color:#fff;}
+.lt_register{float:right;font-size:12px;padding-right:116px;}
+.lt_register .reg_top{width:343px;height:41px;background: #FFFFCC;border:1px dashed #F88E1B;padding-left:5px;}
+.lt_register .reg_top p:first-child{line-height:25px;}
+.lt_register .reg_bottom{font-weight: 900;}
+.lt_register .reg_bottom label{margin-bottom:20px;}
+.lt_register .reg_off{color:#228B22;float:left;}
+.lt_register a{color:#000;float:right;}
+.lt_register input{height:30px;line-height:30px;}
+.lt_register label span{line-height:25px;}
+.lt_register .lt_reg{background-color: #F8901B;width:72px;height:32px;border: 0 none;color:#fff;font-weight: 900;font-size: 12px;}
+.lt_register .vcode{width:200px;position: relative;}
+.lt_register #vcode{width:100px;}
+.reg_bottom .showv{display:block;border:1px dashed #000;height:28px;width:60px;float:right;box-sizing: border-box;font-size:16px;text-align: center;position:absolute;top:47%;right:0px;}
+.reg_bottom .lt_reg{display:block;}
+.reg_bottom .result{display:block;width:20px;height:20px;color:#fff;border-radius: 50%;line-height: 20px;text-align: center;position:absolute;top:53%;right:76px;}
+.reg_bottom .regd{position: absolute;color:red;font-size: 12px;font-weight: 100;}
+.cun,.cuns{display:block;color:red;}

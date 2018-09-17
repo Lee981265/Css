@@ -1,0 +1,74 @@
+.cartmain{border:1px solid #ddd;}
+.cartmain .main-top{height:80px;border-bottom:2px solid #404040;font-weight:600;}
+.cartmain .main-top ul {overflow:hidden;line-height:80px;}
+.cartmain .main-top ul li{float:left;padding:0 50px;height:80px;position:relative;}
+.cartmain .main-top ul li img{display:inline-block;text-align:center;margin-right:15px;margin-top:15px;}
+.cartmain .main-top ul li h1{display:inline-block;margin-right:5px;}
+.cartmain .main-top ul li .pos{position:absolute;left:10px;top:8px;}
+.cartmain .main-top ul li:nth-of-type(1){color:red;}
+.cartmain .main-top ul li:hover{color:red;}
+input:focus{outline:none;}
+button{outline:none;}
+.price{font-weight:600;}
+/*----------------------------商品详情--------------------------------------------------------	*/
+
+.main-middle .main-items{background-color:#f7f7f7;border-bottom:2px solid #d9d9d9;border-top:1px solid #d9d9d9;height:34px;}
+.main-middle .main-items ul{line-height:34px;font-weight:600;overflow:hidden;}
+.main-middle .main-items ul li{float:left;}
+
+.main-middle .main-items ul li:nth-of-type(1){margin-left:5px;}
+.main-middle .main-items ul li:nth-of-type(5){margin-right:5px;float:right;}
+.main-middle .main-items ul li:nth-of-type(4){margin-left:100px;}
+.main-middle .main-items ul li:nth-of-type(3){margin-left:50px;}
+.main-middle .main-items ul li:nth-of-type(2){margin-left:500px;}
+.main-middle #McartList .Information p:nth-of-type(1){font-weight:600;}
+.main-middle #McartList li{height:100px;border-bottom:1px solid #d9d9d9;line-height:100px;}
+.main-middle #McartList li img{width:80px;height:65px;margin:10px 10px;float:left;display:inline-block;}
+.main-middle #McartList li p{line-height:20px;}
+.main-middle #McartList li #Mquality{float:left;display:inline-block;margin-left:110px;line-height:50px;}
+
+.main-middle #McartList li #Mquality .border{margin-top:20px;}
+.main-middle #McartList li #Mquality button{background-color:#fff;border:1px solid #ddd;height:18px;display:block;float:left;width:10px;padding:0;}
+.main-middle #McartList li #Mquality span{border-top:1px solid #ddd;border-bottom:1px solid #ddd;height:16px;margin-left:0;margin-right:0;display:block;float:left;line-height:14px;width:35px;text-align:center;}
+
+.main-middle #McartList li .Price{float:left;display:inline-block;margin-left:35px;height:100px;line-height:100px;}
+.main-middle #McartList li .Price .price{color:red;}
+.main-middle #McartList li .Price .price::before{content:'￥';}
+.main-middle #McartList li .Price del::before{content:'￥';}
+
+.totalPrace::before{content:'￥';}
+.main-middle #McartList li .SUM{float:left;display:inline-block;margin-left:45px;}
+.main-middle #McartList li .SUM .Savingword{color:#468D22;}
+.main-middle #McartList li .Information{float:left;width:370px;display:inline-block;}
+.main-middle #McartList li .Information p:nth-of-type(1){color:#0088cf;}
+.main-middle #McartList li .btn-close{position:absolute;top:30px;right:5px;border:0;background-color:#fff;color:#000;border:1px solid #ddd;}
+.main-middle #McartList li{position:relative;}
+
+
+.checkout{height:118px;border-bottom:1px solid #ddd;}
+.checkout .tip{margin-left:25px;margin-top:30px;}
+.checkout .Shopping{color:#000;}
+.checkout .checktotal{margin-right:25px;margin-top:30px;}
+.checkout .checktotal li{height:20px;}
+.AllTotal{color:#ff4500;font-weight:600;}
+.checkout .checktotal li:nth-of-type(2){color:#468D22;}
+.checkout .checktotal .pay{background-color:#ff4500;padding:5px;color:#fff;border-radius:10px 0 0 10px;cursor:pointer;}
+.checkout .checktotal .pay:hover{background-color:#f60;}
+.hotItems{height:265px;position:relative;overflow:hidden;margin:0;}
+.hotItems p{margin:0;}
+.prev{margin:110px 0 0 100px;float:left;}
+.next{margin:-147px 120px 0 10px;float:right;}
+.hotItems .yt{height:50px;font-weight: 600;margin-left: 20px;line-height:50px;}
+.hotitemsbg{width:100%;}
+.hotItems .Hotitems{overflow:hidden;float:left;}
+.hotItems .Hotitems .links{width:110px;height:110px;}
+.hotItems .Hotitems li{float:left;width:135px;text-align: center;padding:12px;margin:0 20px;}
+.hotItems .Hotitems li:hover{background-color: #fdedd0;border-radius: 10px;}
+
+.hotItems .Hotitems ul{display: flex;justify-content: space-around;position:absolute;top:46px;left:-600px}
+.hotItems .Hotitems li .com::before{content:'￥';}
+.hotItems .Hotitems li .price{color:red;}
+.hotItems .Hotitems li .ADD{background-color:#d2691e;color:#fff;margin-top:25px;cursor:pointer;border-radius: 10px 0 0 10px;width:60%;padding:0 5px;margin-left:20px;}
+.hotItems .Hotitems li .ADD a{color:#fff;display:flex;justify-content:space-between;align-items:center;}
+.hotItems .Hotitems li .ADD a img{width:5px;height:6px;}
+.hotItems .Hotitems li P:nth-of-type(1){height:20px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}

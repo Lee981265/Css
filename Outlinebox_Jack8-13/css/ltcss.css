@@ -1,0 +1,181 @@
+.first{
+    z-index: 2;
+}
+.fixed{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+#toTop{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:20px;
+    width:130px;
+    height:50px;
+    line-height:50px;
+    background-color: #fdedd0;
+    font-family: "微软雅黑";
+    font-size:30px;
+    color:#FF4500;
+    display:none;
+    text-align: center;
+}
+#main .sort{
+    font-size:12px;
+    font-weight: bold;
+    position:relative;
+}
+#main .sort p{
+    position:relative;
+}
+#main .sort span{
+    font-weight: 100;
+    padding:0 10px;
+}
+#main .sort img{
+    position:absolute;
+    top:3px;
+    cursor: pointer;
+}
+#main{
+    width:980px;
+    display:flex;
+    margin: 0 auto;
+
+}
+#main .left{
+    width:200px;
+}
+#main .right{
+    flex:1;
+    margin-left:20px;
+    padding:20px 0px;
+}
+#main ul{
+    width:100%;
+}
+#main .left h4{
+    font-size:12px;
+    padding-top:20px;
+    border-bottom:2px solid #CFCFCF;
+}
+#main .left h4 span{
+    border-bottom:2px solid #000;
+}
+#main .left .item{
+    padding-top: 10px;
+}
+#main .left .item li p{
+    line-height:25px;
+    position:relative;
+    padding-left:20px;
+}
+#main .left .item .ltlist{
+    width: 144px;
+    height: 260px;
+}
+#main .left .item .ltlist h3{
+    font-weight:100;
+    font-size:12px;
+    text-align: center;
+}
+#main .left .item .ltlist p{
+    text-align: center;
+    line-height:30px;
+}
+#main .left .item .ltlist img{
+    width:100%;
+}
+#main .left .item li p img{
+    position:absolute;
+    left:2px;
+    top:5px;
+}
+#main .right li{
+    float:left;
+    width:144px;
+    height:260px;
+    padding:18px;
+    position:relative;
+}
+#main .right .links{
+    display:block;
+}
+#main .right li:hover{
+    background-color:#fdedd0;
+    border-radius:10px;
+}
+#main .right li p{
+    text-align:center;
+    font-size:12px;
+    line-height:15px;
+    color:#FF4500;
+}
+#main .right li .save{
+    color:#000;
+    /*position:absolute;*/
+    padding-bottom:35px;
+    /*left:60px;*/
+}
+#main .right li .detail{
+    color:#000;
+    position:absolute;
+    bottom:0;
+}
+#main .right li span{
+    font-size:12px;
+}
+#main .right li h4{
+    font-size:12px;
+    font-weight:100;
+    text-align: center;
+}
+#main .right li img{
+    width:100%;
+}
+
+#main .right li .car{
+    right:20px;
+    background-color: #FF4500;
+    color:#fff;
+}
+#main .right .right_a{
+    float:right;
+    position:absolute;
+    right:15px;
+    top:-1px;
+
+}
+#main .right .right_a span{
+    background-color:#dfdfdf;
+    padding:0;
+    display:block;
+    width:30px;
+    height:18px;
+    margin:0 5px;
+    text-align:center;
+    float:left;
+   color:#666;cursor:pointer;
+}
+#main .right .right_a span.active{background-color:#fc0;color:#fff;}
+input:focus{outline:none;}
+button{outline:none;}
+
+ul.item  li div{overflow: hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
